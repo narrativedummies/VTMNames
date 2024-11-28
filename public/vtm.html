@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VTM Names</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <button id="themeToggle">Switch to Day Theme</button>
+    <br><br>
+    <div class="container" style="display: flex; flex-wrap: wrap;">
+        <div class="block" id="block1">
+            <input type="number" class="hunger" name="Hunger" min="0" max="5" value="0">
+            <div class="buttons">
+                <button class="minusOne">-1</button>
+                <button class="plusOne">+1</button>
+            </div>
+            <div class="value-buttons">
+                <button class="set-value" data-value="0">0</button>
+                <button class="set-value" data-value="1">1</button>
+                <button class="set-value" data-value="2">2</button>
+                <button class="set-value" data-value="3">3</button>
+                <button class="set-value" data-value="4">4</button>
+                <button class="set-value" data-value="5">5</button>
+            </div>
+            <div class="image-container">
+                <img class="hungerImage" src="/imgs/1/0.png" alt="Hunger Image">
+            </div>
+        </div>
+        <div class="block" id="block2">
+            <input type="number" class="hunger" name="Hunger" min="0" max="5" value="0">
+            <div class="buttons">
+                <button class="minusOne">-1</button>
+                <button class="plusOne">+1</button>
+            </div>
+            <div class="value-buttons">
+                <button class="set-value" data-value="0">0</button>
+                <button class="set-value" data-value="1">1</button>
+                <button class="set-value" data-value="2">2</button>
+                <button class="set-value" data-value="3">3</button>
+                <button class="set-value" data-value="4">4</button>
+                <button class="set-value" data-value="5">5</button>
+            </div>
+            <div class="image-container">
+                <img class="hungerImage" src="/imgs/2/0.png" alt="Hunger Image">
+            </div>
+        </div>
+        <div class="block" id="block3">
+            <input type="number" class="hunger" name="Hunger" min="0" max="5" value="0">
+            <div class="buttons">
+                <button class="minusOne">-1</button>
+                <button class="plusOne">+1</button>
+            </div>
+            <div class="value-buttons">
+                <button class="set-value" data-value="0">0</button>
+                <button class="set-value" data-value="1">1</button>
+                <button class="set-value" data-value="2">2</button>
+                <button class="set-value" data-value="3">3</button>
+                <button class="set-value" data-value="4">4</button>
+                <button class="set-value" data-value="5">5</button>
+            </div>
+            <div class="image-container">
+                <img class="hungerImage" src="/imgs/3/0.png" alt="Hunger Image">
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/socket.js"></script>
+    <script src="/js/vtm.js"></script>
+</body>
+</html>

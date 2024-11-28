@@ -1,0 +1,49 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.block {
+  flex: 1;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.hungerImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  transition: opacity 1.0s ease-in-out;
+}
+
+.hungerImage.hidden {
+  opacity: 0;
+}
+
+
+body.day-theme {
+  background-color: transparent;
+  color: black;
+}
+
+body.night-theme {
+  background-color: #292929;
+  color: white;
+}
+
+input, button {
+  font-size: 0.9rem; /* Размер шрифта относительно базового */
+  padding: 1em; /* Отступы относительно размера шрифта */
+  margin-bottom: 1em;
+}
